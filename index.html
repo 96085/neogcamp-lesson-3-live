@@ -40,23 +40,26 @@
     <a class="link link-secondary" href="/">Secondary Link</a>
     <hr>
     <h2>@lists</h2>
-    <h3>unordered list</h3>
 
-    <ul>
+    <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
+
+    <ul class="list-non-bullet">
         <li>Item One </li>
         <li> Item Two</li>
         <li>Item Three</li>
     </ul>
+    <h3>unordered inline list</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
 
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+        <li class="list-non-inline"> Item One</li>
+        <li class="list-non-inline"> Item Two</li>
+        <li class="list-non-inline"> Item Three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
 
         <li>milk</li>
         <li>eggs</li>
@@ -66,18 +69,25 @@
 
     <h2>@nav</h2>
 
-    <nav>
+    <nav class="navigation container">
 
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">products</a>
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">about</a>
+
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a  href="/">about</a>
             </li>
         </ul>
     </nav>
+    <hr>
+    <h2>@header</h2>
     <header>
         <img src="images/hero.svg" />
         <h1>this is heading h1 inside header</h1>
