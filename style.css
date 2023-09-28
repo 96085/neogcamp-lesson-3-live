@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #43023efb;
+    --of-fwhite: #f1f5f9;
     --dark-gray: #64748b;
 }
 body{
@@ -86,7 +87,15 @@ hr{
 }
 /* section */
 
+.section{
+    padding: 2rem;
+}
 .section h1{
     text-align: center;
+    
+}
+
+.ow{
+    background-color: var(--of-fwhite);
 }
 
