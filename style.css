@@ -23,8 +23,11 @@ hr{
 }
 /* links */
 .link{
+    box-sizing: 1rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin:1rem;
+    margin: 1rem; */
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -110,6 +113,10 @@ footer{
 }
 .footer .link{
     color: white;
+}
+.footer .footer-header{
+    font-weight:bold;
+    font-size: large;
 }
 .footer ul{
     padding-inline-start: 0px;

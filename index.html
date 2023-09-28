@@ -1,138 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    
-   
-</head>
-
-<body>
-    <h1> aquibrabbani's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
+    <title>Home | Aquib Rabbani</title>
     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- <h1>Aquib Rabbani</h1>  -->
 
-    <hr>
+   <nav class="navigation container">
 
+       <div class="nav-brand">IAMDEVELOPER</div>
+       <ul class="list-non-bullet nav-pills">
+           <li class="list-item-inline">
+               <a class="link link-active" href="/">home</a>
+           </li>
 
-    <h2>@typography</h2>
+           <li class="list-item-inline">
+               <a class="link" href="/projects.html">projects</a>
+           </li>
 
-    <h1>This is the biggest heading</h1>
-    <h2>This is second biggest</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text</small>
-    <hr>
+           <li class="list-item-inline">
+               <a class="link" href="/blogs.html">blogs</a>
+           </li>
+       </ul>
+   </nav>
 
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is fluid container and it will go till end of the page</div>
-
-    <h3>center container</h3>
-    <div class ="container container-center">This is centered container and it will go till the specified width</div> 
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <hr>
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullet</p>
-
-    <ul class="list-non-bullet">
-        <li>Item One </li>
-        <li> Item Two</li>
-        <li>Item Three</li>
-    </ul>
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-
-        <li class="list-non-inline"> Item One</li>
-        <li class="list-non-inline"> Item Two</li>
-        <li class="list-non-inline"> Item Three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav class="navigation container">
-
-        <div class="nav-brand">iAmBrand</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="/">home</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a class="link" href="/">products</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a class="link" href="/">about</a>
-            </li>
-        </ul>
-    </nav>
-    <hr>
-
-
-    <h2>@header</h2>
-
-    <header class="hero">
-        <img class="hero-img" src="images/hero.svg" />
-        <h1 class="hero-heading">Aquib Rabbani the <span class="heading-inverted">Web Developer</span> </h1>
-    </header>
-
-    <hr>
-
-
-    <h2>@section</h2>
-
-    <section class="section">
-        <div class="container-center">
-            <h1>white section</h1>
-            <p>A website consists of many files: text content, code, stylesheets, media content, and so on. When you're building a website, you need to assemble these files into a sensible structure and make sure they can talk to one another. This article explains how to set up a sensible file structure for your website and what issues you should be aware of.</p>
-            </div>
-    </section> 
-
-    <section class="section ow">
-        <div class="container-center">
-            <h1>off white section</h1>
-            <p>A website consists of many files: text content, code, stylesheets, media content, and so on. When you're building a website, you need to assemble these files into a sensible structure and make sure they can talk to one another. This article explains how to set up a sensible file structure for your website and what issues you should be aware of.</p>
-        </div>
-    </section>
-    <hr>
-
-    <h2>@footer</h2>
-    <footer class="footer">
-        <div class="footer-header">header inside footer</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"> <a href="">socialone</a></li>
-            <li class="list-item-inline"> <a href="">socialtwo</a></li>
-            <li class="list-item-inline"> <a href="">socialthree</a></li>
-            
-        </ul>
-    </footer>
-
-
-    <div style="height: 30vh;">
+   <header class="hero">
+    <img class="hero-img" src="images/hero.svg" />
+    <h1 class="hero-heading">Aquib Rabbani the <span class="heading-inverted">Web Developer</span> </h1>
+</header>
+<section class="section ow">
+    <div class="container-center">
+        <h1>Technologies</h1>
+        <p>I'm familiar with HTML5, CSS3, GIT, JavaScript, NodejS, ReactJS, and Web Hosting, C++</p>
     </div>
+</section>
 
+<section class="section">
+    <div class="container-center">
+        <h1>Projects</h1>
+        <p>I like to showcase my work and thus, you can see my projects hosted online </p>
+        <a class="link link-primary" href="/">See projects</a>
+        </div>
+</section> 
 
+<section class="section ow">
+    <div class="container-center">
+        <h1>  Blogs</h1>
+        <p>I am also working on some tecnical and non technical blogs. I like to document my journey of learning</p>
+        <a class="link link-secondary" href="/">Read Blogs</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-header">Social media presence</div>
+    <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"> <a class="link" href="https://github.com/96085">github</a></li>
+        <li class="list-item-inline"> <a class="link" href="https://linkedin.com/in/aquibrabbani/">linkedlin</a></li>
+        <li class="list-item-inline"> <a class="link" href="https://instagram.com/rabbaniaquib">instagram</a></li>
+        
+    </ul>
+</footer>
 
 </body>
-
 </html>
